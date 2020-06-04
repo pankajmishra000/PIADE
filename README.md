@@ -1,10 +1,12 @@
-# unsupervised_pyramidal_image_anomaly_detection_and_dynamic_routing
+# A neural network for image anomaly detection with deep pyramidal reporesentations and dynamic routing
+*Pankaj Mishra, Claudio Piciarelli, Gian Luca Foresti*
+
 A neural network for image anomaly detection with deep pyramidal representations and dynamic routing (Paper Publication in process.....)
 
-Complete code will be shaed as soon as the publcation will be finalised...!!
+**Complete code will be shared as soon as the publcation will be finalised...!!**
 
 
-# Reference to datsets-
+# Reference to datasets-
 **MvTech Dataset**- *P. Bergmann, S. L¨owe, M. Fauser, D. Sattlegger and C. Steger, Improving unsupervised defect segmentation by applying structural similarity to autoencoders, International joint conference on computer vision, imaging and computer graphics theory and applications, 2019.*
 
 **COIL100 Dataset**- *S. A. Nene, S. K. Nayar and H. Murase, Columbia object image library (coil-100), Tech. Report Technical Report CUCS-006-96, Columbia University(1996)*
