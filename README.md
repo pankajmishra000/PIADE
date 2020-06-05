@@ -1,4 +1,5 @@
-# A neural network for image anomaly detection with deep pyramidal reporesentations and dynamic routing
+# Pyramidal Image Anomaly Detector
+## A neural network for image anomaly detection with deep pyramidal reporesentations and dynamic routing
 *Pankaj Mishra, Claudio Piciarelli, Gian Luca Foresti*
 
 A neural network for image anomaly detection with deep pyramidal representations and dynamic routing (Paper Publication in process.....)
