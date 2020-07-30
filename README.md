@@ -50,3 +50,7 @@ A set of ablation studies has been done, in which the network is re-trained afte
 **CIFAR10 Dataset**- https://www.cs.toronto.edu/~kriz/cifar.html
 
 **MNIST Dataset**- *Y. LeCun, L. Bottou, Y. Bengio, and P. Haffner. "Gradient-based learning applied to document recognition." Proceedings of the IEEE, 86(11):2278-2324, November 1998, Link:* http://yann.lecun.com/exdb/mnist/
+
+### Future Work
+* Code refactoring
+* Command line execution (It's easy and can be done as needed)
