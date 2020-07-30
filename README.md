@@ -1,4 +1,4 @@
-# [Pyramidal Image Anomaly Detector](https://doi.org/10.1142/S0129065720500604)
+# [Pyramidal Image Anomaly Detector(PIADE)](https://doi.org/10.1142/S0129065720500604)
 ## A neural network for image anomaly detection with deep pyramidal reporesentations and dynamic routing
 *Pankaj Mishra, Claudio Piciarelli, Gian Luca Foresti* [Link to paper](https://doi.org/10.1142/S0129065720500604)
 ![International Journal of Neural System](images/ijns.png)
@@ -17,7 +17,7 @@ and often outperforms other state-of-the-art works. Further ablation experiments
 ![Results](images/results_recons.PNG)
 
 # PIADE Network Architecture
-![PIADE network](images/network.pdf)
+![PIADE network](images/network.PNG)
 
 It consists of an initial ResNet block to extract basic image features. These features are then pooled in the pyramidal pooling block, in order to represent them at different scales. Following the idea of
 capsule networks,7 the pooled features are then dynamically routed to two instantiation vectors (more details in paper), in order to filter the best ones that are useful for later image reconstruction. Image is
@@ -26,19 +26,19 @@ then reconstructed via a linear upsampling layer and a convolutional decoder in 
 ## Soft Attention (Squeeze- Exciation Block)
 In order to improve the quality of the extracted features, each convolutional block is followed by a Squeeze-and-Excitation (SE) block, as proposed by Hu et al.
 
-![Squeeze Excitation Block](images/seblock.pdf)
+![Squeeze Excitation Block](images/seblock.PNG)
 
 ## Pyramidal Pooling Layer
 The idea behind the pyramidal pooling layer is that image features can be analyzed at different magnifications, and possibly relevant features that are well-visible at a given
 scale could be not well extracted by the network at another scale. The pyramidal pooling layer thus scales the input features at different magnification levels, thus increasing the possibility that features
 relevant for the anomaly detection task are actually extracted (more detail in paper).
 
-![Pooling Operation](images/pooling.pdf)
+![Pooling Operation](images/pooling.PNG)
 
 # Ablation Study
 A set of ablation studies, in which the network is re-trained after the removal of specific parts in order to measure the influence of those parts on the network performance.
-![Comparision of AUC for one and two instantiation vectors respectively](vector_auc.pdf)
-![Comparision of AUC with different loss function combinations](losses_auc.pdf)
+![Comparision of AUC for one and two instantiation vectors respectively](vector_auc.PNG)
+![Comparision of AUC with different loss function combinations](losses_auc.PNG)
 
 
 # Reference to datasets-
