@@ -1,7 +1,7 @@
 # [Pyramidal Image Anomaly Detector(PIADE)](https://doi.org/10.1142/S0129065720500604)
 ## A neural network for image anomaly detection with deep pyramidal reporesentations and dynamic routing
 *Pankaj Mishra, Claudio Piciarelli, Gian Luca Foresti* [Link to paper](https://doi.org/10.1142/S0129065720500604)
-<img src="images/ijns.png" width="100" height="200">
+<img src="images/ijns.png" width="300" height="100">
 
 **Abstract**—*Anomaly detection consists in identifying, within a dataset, those samples that significantly differ from the majority of the data, representing the normal class. It has many practical
 applications, e.g. ranging from defective product detection in industrial systems to medical imaging. This paper focuses on image anomaly detection using a deep neural network with multiple
