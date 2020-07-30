@@ -40,8 +40,6 @@ A set of ablation studies has been done, in which the network is re-trained afte
 
 ![Comparision of AUC for one and two instantiation vectors respectively](vector_auc.PNG)
 
-![Comparision of AUC with different loss function combinations](losses_auc.PNG)
-
 
 # Reference to datasets-
 **MvTech Dataset**- *P. Bergmann, S. L¨owe, M. Fauser, D. Sattlegger and C. Steger, Improving unsupervised defect segmentation by applying structural similarity to autoencoders, International joint conference on computer vision, imaging and computer graphics theory and applications, 2019.*
