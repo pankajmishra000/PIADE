@@ -23,10 +23,10 @@ It consists of an initial ResNet block to extract basic image features. These fe
 capsule networks,7 the pooled features are then dynamically routed to two instantiation vectors (more details in paper), in order to filter the best ones that are useful for later image reconstruction. Image is
 then reconstructed via a linear upsampling layer and a convolutional decoder in order to obtain an output with the same shape of the input data.
 
-## Soft Attention (Squeeze- Exciation Block)
+## Soft Attention (Squeeze- Excitation Block)
 In order to improve the quality of the extracted features, each convolutional block is followed by a Squeeze-and-Excitation (SE) block, as proposed by Hu et al.
 
-<img src="images/seblock.PNG" width="150" height="50">
+<img src="images/seblock.PNG" width="500" height="200">
 
 ## Pyramidal Pooling Layer
 The idea behind the pyramidal pooling layer is that image features can be analyzed at different magnifications, and possibly relevant features that are well-visible at a given
