@@ -23,7 +23,7 @@ It consists of an initial ResNet block to extract basic image features. These fe
 capsule networks,7 the pooled features are then dynamically routed to two instantiation vectors (more details in paper), in order to filter the best ones that are useful for later image reconstruction. Image is
 then reconstructed via a linear upsampling layer and a convolutional decoder in order to obtain an output with the same shape of the input data.
 
-## Soft Attention (Squeeze- Excitation Block)
+## Soft Attention (Squeeze-Excitation Block)
 In order to improve the quality of the extracted features, each convolutional block is followed by a Squeeze-and-Excitation (SE) block, as proposed by Hu et al.
 
 <img src="images/seblock.PNG" width="500" height="200">
@@ -33,12 +33,13 @@ The idea behind the pyramidal pooling layer is that image features can be analyz
 scale could be not well extracted by the network at another scale. The pyramidal pooling layer thus scales the input features at different magnification levels, thus increasing the possibility that features
 relevant for the anomaly detection task are actually extracted (more detail in paper).
 
-![Pooling Operation](images/pooling.PNG){ width=50% }
+<img src="images/pooling.PNG" width="500" height="200">
 
 # Ablation Study
 A set of ablation studies has been done, in which the network is re-trained after the removal of specific parts in order to measure the influence of those parts on the network performance.
 
-![Comparision of AUC for one and two instantiation vectors respectively](vector_auc.PNG)
+<img src="images/vector_auc.PNG" width="600" height="300">
+<img src="images/losses_auc.PNG" width="600" height="300">
 
 
 # Reference to datasets-
