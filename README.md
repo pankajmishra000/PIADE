@@ -26,14 +26,14 @@ then reconstructed via a linear upsampling layer and a convolutional decoder in 
 ## Soft Attention (Squeeze- Exciation Block)
 In order to improve the quality of the extracted features, each convolutional block is followed by a Squeeze-and-Excitation (SE) block, as proposed by Hu et al.
 
-![Squeeze Excitation Block](images/seblock.PNG)
+![Squeeze Excitation Block](images/seblock.PNG = 100x50)
 
 ## Pyramidal Pooling Layer
 The idea behind the pyramidal pooling layer is that image features can be analyzed at different magnifications, and possibly relevant features that are well-visible at a given
 scale could be not well extracted by the network at another scale. The pyramidal pooling layer thus scales the input features at different magnification levels, thus increasing the possibility that features
 relevant for the anomaly detection task are actually extracted (more detail in paper).
 
-![Pooling Operation](images/pooling.PNG)
+![Pooling Operation](images/pooling.PNG=100x50)
 
 # Ablation Study
 A set of ablation studies has been done, in which the network is re-trained after the removal of specific parts in order to measure the influence of those parts on the network performance.
