@@ -27,6 +27,7 @@ then reconstructed via a linear upsampling layer and a convolutional decoder in 
 In order to improve the quality of the extracted features, each convolutional block is followed by a Squeeze-and-Excitation (SE) block, as proposed by Hu et al.
 
 ![Squeeze Excitation Block](images/seblock.PNG){:height="50%" width="50%"}
+<Squeeze Excitation Block src="images/seblock.PNG" width="50" height="50">
 
 ## Pyramidal Pooling Layer
 The idea behind the pyramidal pooling layer is that image features can be analyzed at different magnifications, and possibly relevant features that are well-visible at a given
