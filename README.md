@@ -36,8 +36,10 @@ relevant for the anomaly detection task are actually extracted (more detail in p
 ![Pooling Operation](images/pooling.PNG)
 
 # Ablation Study
-A set of ablation studies, in which the network is re-trained after the removal of specific parts in order to measure the influence of those parts on the network performance.
+A set of ablation studies has been done, in which the network is re-trained after the removal of specific parts in order to measure the influence of those parts on the network performance.
+
 ![Comparision of AUC for one and two instantiation vectors respectively](vector_auc.PNG)
+
 ![Comparision of AUC with different loss function combinations](losses_auc.PNG)
 
 
