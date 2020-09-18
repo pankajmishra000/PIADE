@@ -20,7 +20,7 @@ class encoder(nn.Module):
             nn.BatchNorm2d(8,affine = True),
             nn.ReLU(True),           
             nn.Conv2d(8,8,1,stride =1),
-#            nn.Ta♠nh()
+#            nn.Tanh()
         )
 
     def forward(self, x):
